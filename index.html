@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Yoga Workshop - Find Your Inner Peace</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Quicksand', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #FF9A9E 0%, #FAD0C4 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-pink-500">Teen Zen</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-pink-500">About</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-pink-500">Benefits</a>
+                    <a href="#schedule" class="text-gray-600 hover:text-pink-500">Schedule</a>
+                    <a href="#contact" class="text-gray-600 hover:text-pink-500">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient">
+        <div class="container mx-auto px-6 py-24">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Discover Your Inner Peace Through Yoga
+                    </h1>
+                    <p class="text-white text-xl mb-8">
+                        Join our specialized yoga workshop designed just for teenage girls. Find balance, strength, and confidence in a supportive environment.
+                    </p>
+                    <a href="#register" class="bg-white text-pink-500 px-8 py-4 rounded-full font-semibold hover:bg-pink-50 transition duration-300">
+                        Join Our Workshop
+                    </a>
+                </div>
+                <div class="md:w-1/2 mt-12 md:mt-0">
+                    <img src="/api/placeholder/600/400" alt="Teen yoga practice" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div id="benefits" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Why Join Our Workshop?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Build Self-Confidence</h3>
+                    <p class="text-gray-600">Learn poses and techniques that help build inner strength and confidence.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Reduce Stress</h3>
+                    <p class="text-gray-600">Master breathing techniques and mindfulness practices for stress management.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Make New Friends</h3>
+                    <p class="text-gray-600">Connect with like-minded peers in a supportive, friendly environment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule Section -->
+    <div id="schedule" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Workshop Schedule</h2>
+            <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4">Session Details</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-pink-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Every Saturday, 10:00 AM - 11:30 AM</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-pink-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            <span>Peaceful Hearts Yoga Studio</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-pink-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                            <span>Ages 13-18 welcome</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-600 mb-4">Limited spots available - Reserve yours today!</p>
+                    <span class="text-2xl font-bold text-pink-500">$149</span>
+                    <span class="text-gray-600"> / 6 weeks</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div id="register" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Register Now</h2>
+            <div class="max-w-2xl mx-auto">
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-gray-700 mb-2" for="name">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2" for="age">Age</label>
+                            <input type="number" id="age" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-500" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="email">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="experience">Previous Yoga Experience</label>
+                        <select id="experience" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-pink-500">
+                            <option value="none">None</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-pink-500 text-white py-3 rounded-lg font-semibold hover:bg-pink-600 transition duration-300">
+                        Submit Registration
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+                    <p class="mb-2">Email: info@teenzenyoga.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Location</h3>
+                    <p>123 Peaceful Street</p>
+                    <p>Serenity City, SC 12345</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-pink-500">Instagram</a>
+                        <a href="#" class="hover:text-pink-500">Facebook</a>
+                        <a href="#" class="hover:text-pink-500">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p>&copy; 2024 Teen Zen Yoga. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
